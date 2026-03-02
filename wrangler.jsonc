@@ -1,5 +1,5 @@
 {
-  "name": "my-astro-app",
+  "name": "mysite",
   "compatibility_date": "2026-03-01", // Update to the day you deploy
   "assets": {
     "directory": "./dist",
