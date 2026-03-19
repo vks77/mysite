@@ -1,0 +1,12 @@
+total 72
+drwxr-xr-x 6 vk vk  4096 Mar  2 13:42 assets
+drwxr-xr-x 8 vk vk  4096 Mar  2 13:11 components
+-rw-r--r-- 1 vk vk  4307 Mar  3 19:28 config.ts
+drwxr-xr-x 8 vk vk  4096 Mar  2 13:11 content
+-rw-r--r-- 1 vk vk  3283 Mar  2 13:11 content.config.ts
+-rw-r--r-- 1 vk vk   390 Mar  2 13:11 env.d.ts
+drwxr-xr-x 2 vk vk  4096 Mar  2 13:11 layouts
+drwxr-xr-x 5 vk vk  4096 Mar  2 13:11 pages
+drwxr-xr-x 2 vk vk  4096 Mar  2 13:11 styles
+-rw-r--r-- 1 vk vk 26491 Mar  2 13:11 types.ts
+drwxr-xr-x 2 vk vk  4096 Mar  2 13:11 utils
