@@ -5,7 +5,7 @@ export const SITE: Site = {
   base: '/',
   title: 'my portfolio',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
+    'Database Reliability & Infrastructure Engineer — I keep distributed systems running at scale.',
   author: 'Vinay Sharma',
   lang: 'en',
   ogLocale: 'en_US',
@@ -57,22 +57,22 @@ export const UI: Ui = {
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/vks77',
+      title: 'GitHub',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
     {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
+      link: 'https://linkedin.com/in/vinaysharma17',
+      title: 'LinkedIn',
       displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
+      icon: 'i-ri-linkedin-box-fill',
     },
     {
-      link: 'https://bsky.app/profile/astro.build',
-      title: 'Astro on Bluesky',
+      link: 'mailto:sharma.vinay1206@gmail.com',
+      title: 'Email',
       displayMode: 'alwaysIcon',
-      icon: 'i-meteor-icons-bluesky',
+      icon: 'i-ri-mail-line',
     },
   ],
   navBarLayout: {

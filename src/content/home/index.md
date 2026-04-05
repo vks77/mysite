@@ -1,83 +1,150 @@
-Himanshu Tetua :link[Astro 5]{id=withastro/astro} theme for developers and creators, inspired by the minimalist style of :link[antfu.me]{id=https://antfu.me/ img=https://github.com/antfu.png .rounded}. The design has been refined and its functionality expanded for greater flexibility.
+Database Reliability & Infrastructure Engineer
 
-This live demo will guide you through setup and customization, offering helpful insights along the way. Enjoy exploring all the features this theme provides! ✨
+*I keep distributed systems running at scale — and automate everything that gets in the way.*
 
-**Optimized Infrastructure**
+5+ years managing Cassandra, SQL Server, Redis, and MarkLogic across on-premise and cloud infrastructure. Currently transitioning into Site Reliability Engineering.
 
-- Zero UI Framework
-- [SEO-Friendly](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- [Auto-Generated RSS Feed](./blog/faqs-and-known-issues/#rss-subscription-scope)
-- [Dynamic OG Image Generation](./blog/about-open-graph-images/)
-- [Subpath Deployment](./blog/basic-configuration/#configuring-site) Support
-- Optimized and Responsive Images
-- VS Code Snippets for Fast Coding
-- [Well-Structured Project](./blog/project-structure/)
-- High [Lighthouse Performance](./blog/faqs-and-known-issues/#lighthouse-scores)
-
-**Content Management**
-
-- Markdown & MDX Support
-- [Math Equations Rendering](./blog/faqs-and-known-issues/#choosing-a-math-rendering-engine)
-- [Callouts (Alerts/Admonitions)](./blog/markdown-mdx-extended-features/#callouts-alerts--admonitions)
-- [Code Syntax Highlighting & Annotations](./blog/markdown-mdx-extended-features/#fully-featured-code-blocks)
-- Ready-To-Use [Remark Directives](./blog/markdown-mdx-extended-features/#image-caption--link-image)
-- Customizable Layouts, Views, and Navigation
-- [Configurable Animated Backgrounds](./blog/faqs-and-known-issues/#page-backgrounds) (Take a look around!)
-- [Showcase Your GitHub Releases and PRs](./blog/customizing-github-activity-pages)
-- [Highlight Your Creative Work or Curated Posts](./blog/recreating-current-pages/#highlights)
-- [Share Your Short Notes or Quick Thoughts](./blog/recreating-current-pages/#shorts)
-- [Create Your Personal Gallery](./blog/recreating-current-pages/#photos)
-
-**User Experience**
-
-- Responsive Layout
-- Full-Platform TOC Support
-- Light & Dark Modes Toggle
-- Smooth View Transitions
-- Loading Progress Indicator
-- [Search Functionality](./blog/faqs-and-known-issues/#search-functionality)
-- [Image Zoom Preview](./blog/faqs-and-known-issues/#image-zoom)
-- Social Media Sharing
-- [Integrated Giscus Comments](./blog/advanced-configuration/#configure-giscus-comments)
-- [Accessibility Enhancements](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Keyboard-Friendly
-
-> [More features](https://github.com/users/lin-stephanie/projects/4) are continuously being added! 🚀
+<p class="op-60 text-sm flex items-center gap-1.5">
+  <span class="i-ri-map-pin-line"></span> Noida, UP · Open to SRE & Platform roles
+</p>
 
 ---
 
-<p>
-  Visit the theme's
-  <a
-    class="inline-block ml-1.5 op-75"
-    href="https://github.com/lin-stephanie/astro-antfustyle-theme"
-  >
-  <span i-simple-icons-github></span> GitHub repo</a>
-</p>
+## About Me
+
+I got into infrastructure because I liked knowing exactly *why* systems break — and building things that make sure they don't.
+
+Over five years across Accenture and TCS, I've managed 800+ databases for enterprise clients including a major international travel agency. I've owned 4 TB SQL Server environments, tuned Cassandra clusters down to sub-30ms latency, built automation that replaced hundreds of hours of manual work, and been the person on call when things go wrong at 2am.
+
+My work has always lived at the line between database engineering and reliability. I write scripts that eliminate toil. I build health checks that catch problems before users do. I dig into execution plans, JVM configs, and replication logs until I understand exactly what's happening and why.
+
+Right now I'm making a deliberate move into Site Reliability Engineering — expanding into Kubernetes, IaC, and observability platform design to complement what I already know deeply. I'm not changing what I do. I'm broadening the surface I do it on.
+
+---
+
+## What I've Built
+
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
+
+  <div class="border border-[#8884] rounded-lg p-5 hover:bg-[#88888808] transition-colors">
+    <p class="text-2xl font-bold mb-1 mt-0! text-violet-500 dark:text-violet-400">400+</p>
+    <p class="font-semibold mt-0! mb-2">Automated SQL Server Installations</p>
+    <p class="text-sm op-70 mt-0!">A single installation script standardized configuration across 400+ VMs. Hours per server became zero-touch. Estimated 300+ engineering hours saved.</p>
+  </div>
+  <div class="border border-[#8884] rounded-lg p-5 hover:bg-[#88888808] transition-colors">
+    <p class="text-2xl font-bold mb-1 mt-0! text-teal-500 dark:text-teal-400">67%</p>
+    <p class="font-semibold mt-0! mb-2">Faster Post-Patch Validation — MarkLogic</p>
+    <p class="text-sm op-70 mt-0!">Built health check automation for post-patching verification. Per-server validation dropped from 15 min to 5 min — cutting recovery windows across every cycle.</p>
+  </div>
+  <div class="border border-[#8884] rounded-lg p-5 hover:bg-[#88888808] transition-colors">
+    <p class="text-2xl font-bold mb-1 mt-0! text-amber-500 dark:text-amber-400">Zero-touch</p>
+    <p class="font-semibold mt-0! mb-2">Azure SQL Maintenance</p>
+    <p class="text-sm op-70 mt-0!">Azure Automation Runbooks handling index rebuilds, statistics updates, and maintenance windows. Runs on schedule, alerts on deviation, requires nothing from the team.</p>
+  </div>
+</div>
+
+---
+
+## Tech Stack
+
+<div class="my-4">
+  <p class="font-semibold mb-2 op-80"><span class="i-ri-database-2-line mr-1"></span> Databases</p>
+  <div class="flex flex-wrap gap-2 mb-5">
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Apache Cassandra</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">DataStax Enterprise</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">SQL Server</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Redis</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">MarkLogic</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">MySQL</span>
+  </div>
+
+  <p class="font-semibold mb-2 op-80"><span class="i-ri-cloud-line mr-1"></span> Cloud & Automation</p>
+  <div class="flex flex-wrap gap-2 mb-5">
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Microsoft Azure</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Azure Automation Runbooks</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Azure PaaS SQL</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">PowerShell</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Bash</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">SQL Scripting</span>
+  </div>
+
+  <p class="font-semibold mb-2 op-80"><span class="i-ri-shield-check-line mr-1"></span> Reliability & Ops</p>
+  <div class="flex flex-wrap gap-2 mb-5">
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">AlwaysOn AG</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Transactional Replication</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Query Tuning</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Incident Management</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Root Cause Analysis</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Post-Patch Validation</span>
+  </div>
+
+  <p class="font-semibold mb-2 op-80"><span class="i-ri-terminal-box-line mr-1"></span> Operating Systems</p>
+  <div class="flex flex-wrap gap-2 mb-5">
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Linux (RHEL / CentOS / Ubuntu)</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884]">Windows Server</span>
+  </div>
+
+  <p class="font-semibold mb-2 op-80"><span class="i-ri-graduation-cap-line mr-1"></span> Currently Learning</p>
+  <div class="flex flex-wrap gap-2 mb-5">
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884] border-dashed">Kubernetes</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884] border-dashed">Terraform</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884] border-dashed">CI/CD Pipelines</span>
+    <span class="px-2.5 py-0.5 rounded-full text-sm border border-[#8884] border-dashed">Observability Stack Design</span>
+  </div>
+
+  <p class="font-semibold mb-2 op-80"><span class="i-ri-award-line mr-1"></span> Certifications</p>
+  <div class="flex flex-wrap gap-2">
+    <span class="px-2.5 py-0.5 rounded-full text-sm bg-blue/10 text-blue-600 dark:text-blue-400 border border-blue/20">Microsoft Azure Fundamentals — AZ-900</span>
+  </div>
+</div>
+
+---
+
+## Experience
+
+<div class="my-6">
+  <div class="border-l-2 border-[#8884] pl-5 mb-8 relative">
+    <div class="absolute w-3 h-3 bg-rose-500 rounded-full -left-[7px] top-1.5"></div>
+    <p class="font-semibold text-lg mb-0.5 mt-0!">Accenture</p>
+    <p class="op-60 text-sm mt-0! mb-2">Systems Engineer — Infra Managed Services · Jan 2024 – Present · Noida, UP</p>
+    <p class="text-sm op-80 mt-1 mb-1"><strong>Currently:</strong> Cassandra & Data Infrastructure (Feb 2026 – Present)</p>
+    <p class="text-sm op-80 mt-0!"><strong>Previously:</strong> DBA Team — SQL Server, Redis & MarkLogic (Jan 2024 – Jan 2026)</p>
+  </div>
+  <div class="border-l-2 border-[#8884] pl-5 relative">
+    <div class="absolute w-3 h-3 bg-violet-500 rounded-full -left-[7px] top-1.5"></div>
+    <p class="font-semibold text-lg mb-0.5 mt-0!">Tata Consultancy Services (TCS)</p>
+    <p class="op-60 text-sm mt-0! mb-2">Systems Engineer · Apr 2021 – Dec 2023 · Noida, UP</p>
+    <p class="text-sm op-80 mt-0!">Client: Major International Travel Agency · 800+ databases · 4 TB environments · 3-person team</p>
+  </div>
+</div>
+
+---
+
+## Education
+
+<div class="my-4">
+  <p class="font-semibold mt-0!"><span class="i-ri-graduation-cap-line mr-1"></span> B.Tech — Computer Science & Engineering</p>
+  <p class="op-60 text-sm mt-0!">IIMT College of Engineering, AKTU · 2016 – 2020 · Greater Noida, UP</p>
+</div>
+
+---
+
+## Let's Connect
+
+I'm actively looking for **SRE**, **Database Reliability Engineer**, and **Platform Engineer** roles — remote or hybrid, based out of Noida.
+
+If you're building reliable infrastructure and need someone who's been deep in the data layer, let's talk.
 
 <p>
-  <span class="inline-block mr-1.5 mb-2">Find me on</span>
-  <span class="inline-flex flex-wrap gap-2 op-75">
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-github></span> GitHub</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-ri-twitter-x-fill></span> Twitter</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-instagram></span> Instagram</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-mastodon></span> Mastodon</a>
-    <a href="https://github.com/lin-stephanie/astro-antfustyle-theme">
-      <span i-simple-icons-youtube></span> YouTube</a>
+  <span class="inline-flex flex-wrap gap-3 mt-2">
+    <a class="btn-rose" href="mailto:sharma.vinay1206@gmail.com">
+      <span class="i-ri-mail-line"></span> Email
+    </a>
+    <a class="btn-violet" href="https://linkedin.com/in/vinaysharma17">
+      <span class="i-ri-linkedin-box-fill"></span> LinkedIn
+    </a>
+    <a class="btn-teal" href="https://github.com/vks77">
+      <span class="i-uil-github-alt"></span> GitHub
+    </a>
   </span>
 </p>
-
----
-
-If you find this theme helpful, consider supporting the project maintainer or the style designer. Your support means more than you know. Thank you! ❤️
-
-<div class="flex flex-wrap gap-4">
-  <a class="btn-rose" href="https://github.com/sponsors/lin-stephanie">
-    <span class="i-ph-heart-duotone"></span> Support Stephanie Lin (Maintainer)</a>
-  <a class="btn-yellow" href="https://github.com/sponsors/antfu">
-    <span class="i-ph-lightning-duotone"></span> Support Anthony Fu (Designer)</a>
-</div>
