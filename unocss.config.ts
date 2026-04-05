@@ -139,5 +139,16 @@ export default defineConfig({
     /* Toc */
     'i-ri-menu-2-fill',
     'i-ri-menu-3-fill',
+
+    /* Homepage */
+    'i-ri-map-pin-line',
+    'i-ri-database-2-line',
+    'i-ri-cloud-line',
+    'i-ri-shield-check-line',
+    'i-ri-terminal-box-line',
+    'i-ri-graduation-cap-line',
+    'i-ri-award-line',
+    'i-ri-mail-line',
+    'i-ri-linkedin-box-fill',
   ],
 })
