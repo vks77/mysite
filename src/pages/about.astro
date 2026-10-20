@@ -1,0 +1,84 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/Button.astro';
+import { SITE, EXPERIENCE, EDUCATION, STACK } from '@/site.config';
+---
+
+<BaseLayout title="About" description={`Experience, education and stack for ${SITE.name}.`}>
+  <section class="mx-auto max-w-3xl px-6 pt-16 pb-12 sm:pt-24">
+    <p class="text-ink-soft mb-6 font-mono text-xs tracking-[0.2em] uppercase">About</p>
+
+    <h1 class="font-display text-ink max-w-xl text-3xl font-medium sm:text-4xl">
+      {SITE.role}.
+    </h1>
+
+    <div class="prose prose-sm sm:prose-base mt-8 max-w-xl">
+      <p>
+        I got into infrastructure because I like knowing exactly why systems break, and building
+        things that make sure they do not. Over five years at Accenture and TCS I have managed
+        800+ databases for enterprise clients, owned 20 TB SQL Server environments, tuned Cassandra
+        clusters to sub-30 ms latency and been on call when things go wrong at 2am.
+      </p>
+      <p>
+        My work sits between database engineering and reliability. I write scripts that remove
+        toil, build health checks that catch problems before users do, and dig into execution
+        plans, JVM configuration and replication logs until I understand what is happening.
+      </p>
+      <p>
+        I am now widening the platform side of that work: Kubernetes, infrastructure as code and
+        observability, on top of years of owning the data layer.
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-6 pb-12">
+    <p class="text-ink-soft mb-6 font-mono text-xs tracking-[0.2em] uppercase">Experience</p>
+    <div>
+      {
+        EXPERIENCE.map((job) => (
+          <div class="border-line grid gap-2 border-t py-6 sm:grid-cols-[11rem_1fr] sm:gap-8">
+            <p class="text-ink-soft font-mono text-xs">{job.period}</p>
+            <div>
+              <h2 class="font-display text-ink text-lg">{job.org}</h2>
+              <p class="text-ink-soft text-sm">{job.role}</p>
+              <ul class="text-ink-soft mt-3 list-disc space-y-1 pl-5 text-sm">
+                {job.points.map((point) => <li>{point}</li>)}
+              </ul>
+            </div>
+          </div>
+        ))
+      }
+      <div class="border-line grid gap-2 border-t py-6 sm:grid-cols-[11rem_1fr] sm:gap-8">
+        <p class="text-ink-soft font-mono text-xs">{EDUCATION.period}</p>
+        <div>
+          <h2 class="font-display text-ink text-lg">{EDUCATION.school}</h2>
+          <p class="text-ink-soft text-sm">{EDUCATION.degree}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-6 pb-24">
+    <p class="text-ink-soft mb-6 font-mono text-xs tracking-[0.2em] uppercase">Stack</p>
+    <div class="grid gap-6 sm:grid-cols-2">
+      {
+        STACK.map((g) => (
+          <div>
+            <h2 class="font-display text-ink mb-3 text-base">{g.group}</h2>
+            <ul class="flex flex-wrap gap-2">
+              {
+                g.items.map((item) => (
+                  <li class="border-line text-ink-soft rounded-full border px-3 py-1 font-mono text-xs">
+                    {item}
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+
+    <Button href={`mailto:${SITE.email}`} class="mt-12">Get in touch</Button>
+  </section>
+</BaseLayout>

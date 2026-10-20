@@ -20,11 +20,7 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-# jetbrains setting folder
+# editor
+.vscode/*
+!.vscode/extensions.json
 .idea/
-
-# eslint cache
-.eslintcache
-
-# local archive
-.local
